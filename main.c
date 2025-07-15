@@ -29,7 +29,7 @@ void initializeQueue(Fila *q) {
 void enqueue(Fila *q, char *name, char *cpf, char *matricula) {
     List *new = (List *)malloc(sizeof(List));
     if (new == NULL) {
-        printf("Erro ao alocar memória!\n");
+        printf("Erro ao alocar memória!!\n");
         return;
     }
 
